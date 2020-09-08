@@ -1,0 +1,45 @@
+
+.boy{
+    width: auto;
+    height: auto;
+    background-image: url("../priter/1.webp");
+}
+.box{
+
+
+    margin-top: 200px;
+    margin-left: 1080px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding-block-end:30px ;
+    BACKGROUND-COLOR: transparent;
+
+
+}
+.box input{
+    width:280px;
+    height:36px;
+    text-align: center;
+    display:block;
+    border-radius:20px;
+    font-size: 20px;
+    margin: auto;
+    background-color:transparent;border:0;
+
+
+}
+
+h1{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left:10px;
+    border-radius: 10px;
+    background-color: dimgray;
+
+}
+

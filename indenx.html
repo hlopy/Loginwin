@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+
+    <link rel="stylesheet" type="text/css" href="web/Style/index.css">
+    <script type="text/javascript" src="web/Jscript/Jquery_3.4.js"></script>
+    <script type="text/javascript" src="web/Jscript/index.js"></script>
+
+</head>
+
+
+<body class="boy">
+<div class="box">
+
+    <form id="form1" action="http://localhost:8080/bokk/loginseverlet" method="post">
+        <h1>登入</h1>
+        <input type="text" id="nametext" name="nametext" placeholder="请输入用户名"><br>
+
+        <input type="password" id="pwtext" name="pwtext" placeholder="请输入密码">
+        <span class="err"></span><br>
+        <tr>
+            <td><button id="inp1" type="submit" >登入</button> </td>
+            <td><button id="inp2" type="submit" >注册</button>  </td>
+        </tr>
+    </form>
+    <form id="form2" action="http://localhost:8080/bokk/registseverlet" method="post">
+        <h1>注册</h1>
+        <input type="text" id="nametext1"  name="rename" placeholder="请输入用户名"><br> 
+        <input type="password" id="pwtext1" name="password" placeholder="请输入密码"><br>
+        <input type="password" id="pw1text" placeholder="请再次输入密码">
+        <input type="email" id="emtext" name="email" placeholder="请输入邮箱">
+        <span class="err"></span><br>
+        <tr>
+            <td><button id="inp3" type="submit" >提交登入</button> </td>
+            <td><button id="inp4" type="submit" >登入</button> </td>
+        </tr>
+    </form>
+
+
+
+</div>
+
+</body>
+</html>
